@@ -1,0 +1,78 @@
+- !<AssetImportMetadata/fa445066-0399-4237-ac98-1a8a6f97eb75>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e4f268c6-ca4a-4a80-b173-73484815a5d0
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e4f268c6-ca4a-4a80-b173-73484815a5d0
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7570e71b-800b-43bc-9f0b-f7c54afabbd4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7570e71b-800b-43bc-9f0b-f7c54afabbd4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: aacfcc3d-e1d3-4cc3-99ec-b8b79e994f7c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    activeCompanionId: false
+    enableCompanionSelector: false
+    selectorButton: false
+    selectorLabel: false
+    setHudson: false
+    setMerry: false
+    setPhineas: false
+    setSnowy: false
+    sharedStickyArt: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - setPhineas: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      setHudson: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      setMerry: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      setSnowy: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      sharedStickyArt: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      enableCompanionSelector: false
+      activeCompanionId: phineas
+      selectorButton: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      selectorLabel: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">OnTaskCompanions: active art set</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Sets (empty slots until approved)"}'
+    - "// @input AssignableType_1 setPhineas {\"hint\":\"Phineas's set. Holds the placeholder art.\"}"
+    - "// @input AssignableType_2 setHudson {\"hint\":\"Hudson's set. Empty until approved.\"}"
+    - "// @input AssignableType_3 setMerry {\"hint\":\"Merry's set. Empty until approved.\"}"
+    - "// @input AssignableType_4 setSnowy {\"hint\":\"Snowy's set. Empty until approved.\"}"
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Shared art (all companions)"}'
+    - '// @input Asset.Texture sharedStickyArt {"hint":"Sticky art, used by the corner sticky and every board card"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Selector"}'
+    - '// @input bool enableCompanionSelector {"hint":"Off: selector hidden and non-interactive, Phineas forced active. On: demo panel button cycles companions."}'
+    - '// @input string activeCompanionId = "phineas" {"hint":"Companion to start on when the selector is on. Ignored while it is off.", "widget":"combobox", "values":[{"label":"phineas", "value":"phineas"}, {"label":"hudson", "value":"hudson"}, {"label":"merry", "value":"merry"}, {"label":"snowy", "value":"snowy"}]}'
+    - '// @input AssignableType_5 selectorButton {"hint":"Demo panel selector button"}'
+    - '// @input Component.Text selectorLabel {"hint":"Selector button label"}'
+    - '// @ui {"widget":"group_end"}'

@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/8ee81ddf-fe9e-475a-bd85-6e6e4a45d267>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 539a488e-1d96-4210-961f-d6fb51eeb0e7
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 539a488e-1d96-4210-961f-d6fb51eeb0e7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 70a185b8-317b-487d-b835-79dc45ad02f1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/70a185b8-317b-487d-b835-79dc45ad02f1>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: d47503bd-11b1-4ea6-a1a7-a06ef6a552be
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    face: false
+    heightCm: false
+    widthCm: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - widthCm: !<float> 6.000000
+      heightCm: 2.667000
+      face: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">OnTaskButton</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input float widthCm = 6 {"hint":"Collider width in cm"}'
+    - '// @input float heightCm = 2.667 {"hint":"Collider height in cm"}'
+    - '// @input AssignableType_1 face {"hint":"Child face quad. Dims when this button is an unselected view icon."}'

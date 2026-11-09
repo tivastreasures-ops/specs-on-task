@@ -36,6 +36,9 @@ ls-live-instance.json*
 # Old Default-template project, kept locally
 _old-default/
 
+# Private mockups: show home, a receipt and personal sticky text
+mock up/
+
 # Rules from the Spectacles project's own .gitignore
 
 # The lines below are automatically generated and updated by Lens Studio.
@@ -54,3 +57,6 @@ Workspaces/**
 /spk_debug_key.pem
 *.lock
 
+
+# Lens Studio MCP tool output (VirtualScene read), regenerated on demand
+.virtual-scene.json

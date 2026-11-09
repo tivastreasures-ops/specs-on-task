@@ -1,0 +1,63 @@
+- !<AssetImportMetadata/d1725dc0-a647-4e4f-b167-3de7ad582902>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 6d1e3317-8aad-4fe5-908b-4bd5cca5b7ea
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 6d1e3317-8aad-4fe5-908b-4bd5cca5b7ea
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 08251141-6d35-46c8-897a-ca7afdcf30fe
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/08251141-6d35-46c8-897a-ca7afdcf30fe>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: f6ea8e28-4e4e-4839-ae19-e458a3fc8c4a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    flow: false
+    playButton: false
+    steps: false
+    turnScenesTowardCamera: false
+    voice: false
+    warmUpSeconds: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - flow: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      voice: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      playButton: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      turnScenesTowardCamera: true
+      warmUpSeconds: 1.500000
+      steps: ""
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">OnTaskAutoPlay: Play demo</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input AssignableType_1 flow {"hint":"Flow to drive"}'
+    - "// @input AssignableType_2 voice {\"hint\":\"Voice player, warmed up before the run so the first lines don't stall\"}"
+    - "// @input AssignableType_3 playButton {\"hint\":\"Demo panel 'Play demo' button\"}"
+    - '// @input bool turnScenesTowardCamera = true {"hint":"Turn each scene toward the camera during the demo (preview/video only)"}'
+    - '// @input float warmUpSeconds = 1.5 {"hint":"Seconds to wait after pressing Play demo before the first press"}'
+    - '// @input string steps {"hint":"Demo script, see header"}'

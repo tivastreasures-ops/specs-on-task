@@ -1,0 +1,66 @@
+- !<AssetImportMetadata/280109f3-d0de-474d-8980-66a7f275967e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 27d79cc7-2a51-443d-97f8-9b311281f4db
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 27d79cc7-2a51-443d-97f8-9b311281f4db
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> c65b1359-2328-4487-8055-53fbd60d8d06
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c65b1359-2328-4487-8055-53fbd60d8d06>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 27ca8cf0-8f93-4e92-89ad-728cd6ecb64f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    art: false
+    coverCrop: false
+    fitHeightToArt: false
+    fitWidthToArt: false
+    keepBottomEdge: false
+    maxWidthCm: false
+    slotKey: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - slotKey: ""
+      art: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      coverCrop: false
+      fitWidthToArt: false
+      fitHeightToArt: false
+      maxWidthCm: !<float> 0.000000
+      keepBottomEdge: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">OnTaskArtSlot</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input string slotKey {"hint":"Art set key, e.g. faceYes or poseStove, or shared.sticky. Empty: use the art input below."}'
+    - '// @input Asset.Texture art {"hint":"Used only when slotKey is empty. Drop a texture here."}'
+    - '// @input bool coverCrop {"hint":"Crop the texture to fill this quad without stretching (centered). Used by scene backgrounds."}'
+    - "// @input bool fitWidthToArt {\"hint\":\"Keep this quad's height and set its width from the art's aspect ratio. Used by the pill buttons.\"}"
+    - "// @input bool fitHeightToArt {\"hint\":\"Keep this quad's width and set its height from the art's aspect ratio. Used by the speech bubbles.\"}"
+    - '// @input float maxWidthCm {"hint":"With fit width to art: the widest this quad may get, in cm (0 = no limit). A wider art shrinks, keeping its aspect."}'
+    - '// @input bool keepBottomEdge {"hint":"When a max-width art shrinks, keep the bottom edge where it was (so a bow or footer stays put)."}'

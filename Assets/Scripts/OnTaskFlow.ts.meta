@@ -1,0 +1,186 @@
+- !<AssetImportMetadata/60e27cf4-17f3-4dae-9306-2a8538b3c1cd>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 99a19a4c-cf2d-45ad-9fbf-0c4564c245ba
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 99a19a4c-cf2d-45ad-9fbf-0c4564c245ba
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b7c322ec-e439-4acc-a9be-35f6fd3b18ae
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b7c322ec-e439-4acc-a9be-35f6fd3b18ae>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 7c7f73e0-086e-41bb-b505-dc2cac272e40
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    arcRoot: false
+    board: false
+    bubbleConfirm: false
+    bubbleConfirmFace: false
+    bubbleConfirmText: false
+    bubbleNudge: false
+    bubbleThereItIs: false
+    bubbleWantSticky: false
+    confirmHoldSeconds: false
+    demoPanel: false
+    dismissButton: false
+    fadeSeconds: false
+    garlicHighlight: false
+    includeSampleStickies: false
+    myStickiesButton: false
+    noButton: false
+    nudgeDelaySeconds: false
+    nudgeHoldSeconds: false
+    panelDoneCooking: false
+    panelDrift: false
+    panelFlyer: false
+    panelGarlic: false
+    panelReset: false
+    previewRotateToActiveSpot: false
+    sampleStickies: false
+    sampleStickyArt: false
+    saveButton: false
+    saveRemindButton: false
+    showSceneBackgrounds: false
+    spotCouch: false
+    spotDishes: false
+    spotDistanceCm: false
+    spotFlyerCounter: false
+    spotSpiceShelf: false
+    spotStove: false
+    stickyArt: false
+    stickyCorner: false
+    stickyCornerText: false
+    stickyText: false
+    voice: false
+    yesButton: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - showSceneBackgrounds: true
+      includeSampleStickies: true
+      sampleStickies: !<string[]>
+        - Buy Eggs
+        - Water plants
+        - "Don't forget sunglasses"
+        - Charger cord is in front suitcase pocket
+        - Buy more pet food
+      stickyText: "Check out a holiday fair next Saturday, 1 to 5."
+      stickyArt: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      sampleStickyArt: !<reference.Texture[]>
+        []
+      nudgeDelaySeconds: !<float> 8.000000
+      nudgeHoldSeconds: !<float> 5.000000
+      confirmHoldSeconds: 2.500000
+      fadeSeconds: 0.600000
+      spotDistanceCm: !<float> 56.000000
+      previewRotateToActiveSpot: false
+      arcRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      spotStove: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      spotSpiceShelf: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      spotFlyerCounter: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      spotDishes: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      spotCouch: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      bubbleThereItIs: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      garlicHighlight: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bubbleWantSticky: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      stickyCorner: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      stickyCornerText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      bubbleConfirm: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bubbleConfirmText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      bubbleConfirmFace: !<MappingBased.AssignableType_6> 00000000-0000-0000-0000-000000000000
+      bubbleNudge: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      yesButton: !<MappingBased.AssignableType_7> 00000000-0000-0000-0000-000000000000
+      noButton: !<MappingBased.AssignableType_8> 00000000-0000-0000-0000-000000000000
+      saveRemindButton: !<MappingBased.AssignableType_9> 00000000-0000-0000-0000-000000000000
+      saveButton: !<MappingBased.AssignableType_10> 00000000-0000-0000-0000-000000000000
+      dismissButton: !<MappingBased.AssignableType_11> 00000000-0000-0000-0000-000000000000
+      myStickiesButton: !<MappingBased.AssignableType_12> 00000000-0000-0000-0000-000000000000
+      board: !<MappingBased.AssignableType_13> 00000000-0000-0000-0000-000000000000
+      demoPanel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      panelGarlic: !<MappingBased.AssignableType_14> 00000000-0000-0000-0000-000000000000
+      panelFlyer: !<MappingBased.AssignableType_15> 00000000-0000-0000-0000-000000000000
+      panelDrift: !<MappingBased.AssignableType_16> 00000000-0000-0000-0000-000000000000
+      panelDoneCooking: !<MappingBased.AssignableType_17> 00000000-0000-0000-0000-000000000000
+      panelReset: !<MappingBased.AssignableType_18> 00000000-0000-0000-0000-000000000000
+      voice: !<MappingBased.AssignableType_19> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">OnTaskFlow: demo state machine</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input bool showSceneBackgrounds = true {"hint":"Fake-kitchen stand-ins for preview. A live Lens shows the real kitchen through the glasses, so turn this off there."}'
+    - '// @input bool includeSampleStickies = true {"hint":"Append the sample stickies after the real saved ones"}'
+    - "// @input string[] sampleStickies = {\"Buy Eggs\",\"Water plants\",\"Don't forget sunglasses\",\"Charger cord is in front suitcase pocket\",\"Buy more pet food\"} {\"hint\":\"Editable sample stickies for the browsing views\"}"
+    - '// @input string stickyText = "Check out a holiday fair next Saturday, 1 to 5." {"hint":"Text of the proposed sticky"}'
+    - '// @input Asset.Texture stickyArt {"hint":"Art for the saved holiday fair sticky on the board (shared, all companions)"}'
+    - '// @input Asset.Texture[] sampleStickyArt = {} {"hint":"Sample sticky art for the browsing views (shared). When filled, it replaces the text samples above."}'
+    - '// @input float nudgeDelaySeconds = 8 {"hint":"Seconds from Drift until the nudge. A second tap of Drift skips the wait.", "widget":"slider", "min":0, "max":30, "step":0.5}'
+    - '// @input float nudgeHoldSeconds = 5 {"hint":"Seconds the nudge bubble stays before fading", "widget":"slider", "min":1, "max":20, "step":0.5}'
+    - '// @input float confirmHoldSeconds = 2.5 {"hint":"Seconds the Saved / Remind confirmation stays", "widget":"slider", "min":0.5, "max":10, "step":0.5}'
+    - '// @input float fadeSeconds = 0.6 {"hint":"Fade length in seconds", "widget":"slider", "min":0.1, "max":2, "step":0.1}'
+    - "// @input float spotDistanceCm = 56 {\"hint\":\"Distance from the user's start to each spot. Spec: 56 cm (22 in). The SPECS 27 preview only shows about 32 cm of width at 56 cm; 66 cm fits the whole 38.1 cm window.\", \"widget\":\"slider\", \"min\":40, \"max\":90, \"step\":1}"
+    - '// @input bool previewRotateToActiveSpot {"hint":"Preview convenience, off by default: turns the arc so the active spot faces the camera. Breaks world anchoring, so never use on device."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Spots"}'
+    - "// @input SceneObject arcRoot {\"hint\":\"Parent of the five spots. Placed once from the user's start pose.\"}"
+    - '// @input AssignableType_1 spotStove {"hint":"Stove spot"}'
+    - '// @input AssignableType_2 spotSpiceShelf {"hint":"Spice shelf spot"}'
+    - '// @input AssignableType_3 spotFlyerCounter {"hint":"Flyer counter spot"}'
+    - '// @input AssignableType_4 spotDishes {"hint":"Dishes spot"}'
+    - '// @input AssignableType_5 spotCouch {"hint":"Couch spot"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Per-state visuals"}'
+    - "// @input SceneObject bubbleThereItIs {\"hint\":\"'There it is!' bubble\"}"
+    - '// @input SceneObject garlicHighlight {"hint":"Frame around the garlic jar"}'
+    - "// @input SceneObject bubbleWantSticky {\"hint\":\"'Want me to make a sticky?' bubble\"}"
+    - '// @input SceneObject stickyCorner {"hint":"Proposed corner sticky"}'
+    - '// @input Component.Text stickyCornerText {"hint":"Corner sticky text"}'
+    - '// @input SceneObject bubbleConfirm {"hint":"Saved / Remind confirmation"}'
+    - '// @input Component.Text bubbleConfirmText {"hint":"Confirmation text"}'
+    - "// @input AssignableType_6 bubbleConfirmFace {\"hint\":\"Confirmation bubble face; switches between the companion's Saved and Saved & Remind art\"}"
+    - '// @input SceneObject bubbleNudge {"hint":"Omelet nudge bubble"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Controls"}'
+    - '// @input AssignableType_7 yesButton {"hint":"Yes"}'
+    - '// @input AssignableType_8 noButton {"hint":"No"}'
+    - '// @input AssignableType_9 saveRemindButton {"hint":"Save & Remind"}'
+    - '// @input AssignableType_10 saveButton {"hint":"Save"}'
+    - '// @input AssignableType_11 dismissButton {"hint":"Dismiss: rejects a proposed sticky"}'
+    - '// @input AssignableType_12 myStickiesButton {"hint":"My Stickies: couch idle only"}'
+    - '// @input AssignableType_13 board {"hint":"Browsing board"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Demo panel (presenter tool)"}'
+    - '// @input SceneObject demoPanel {"hint":"Panel root. Follows the active spot, outside the display window."}'
+    - '// @input AssignableType_14 panelGarlic {"hint":"I need garlic"}'
+    - '// @input AssignableType_15 panelFlyer {"hint":"Notice flyer"}'
+    - '// @input AssignableType_16 panelDrift {"hint":"Drift"}'
+    - '// @input AssignableType_17 panelDoneCooking {"hint":"Done cooking"}'
+    - '// @input AssignableType_18 panelReset {"hint":"Reset"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Audio"}'
+    - '// @input AssignableType_19 voice {"hint":"Voice player"}'
+    - '// @ui {"widget":"group_end"}'

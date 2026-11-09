@@ -1,0 +1,100 @@
+- !<AssetImportMetadata/478681e3-ce34-4577-a740-2e2a6add1635>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5f8a1ad8-81b4-4f03-b43c-a7054b4adc05
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5f8a1ad8-81b4-4f03-b43c-a7054b4adc05
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 16db1169-a7b4-48c5-a002-d53e0365bdea
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/16db1169-a7b4-48c5-a002-d53e0365bdea>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: a0909b7c-fd1c-4d2a-a074-8b41b8eed81f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    boardFrame: false
+    cardsRoot: false
+    closeButton: false
+    collectionRowLiftIn: false
+    collectionShrinkOnSmallBoard: false
+    designFrameHeightCm: false
+    emptyText: false
+    fallbackStickyArt: false
+    gridButton: false
+    gridWidthIn: false
+    nextButton: false
+    prevButton: false
+    singleButton: false
+    singleWidthIn: false
+    threeButton: false
+    threeCenterWidthIn: false
+    threeSideWidthIn: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - cardsRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      emptyText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      prevButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      nextButton: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      singleButton: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      threeButton: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      gridButton: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      closeButton: !<MappingBased.AssignableType_6> 00000000-0000-0000-0000-000000000000
+      fallbackStickyArt: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      boardFrame: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      designFrameHeightCm: 19.299999
+      collectionShrinkOnSmallBoard: 0.880000
+      collectionRowLiftIn: 0.300000
+      singleWidthIn: 4.300000
+      threeCenterWidthIn: !<float> 4.000000
+      threeSideWidthIn: 3.300000
+      gridWidthIn: 1.900000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">OnTaskBoard: browsing</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input SceneObject cardsRoot {"hint":"Parent of the pooled card objects"}'
+    - '// @input Component.Text emptyText {"hint":"Shown when there are no stickies"}'
+    - '// @input AssignableType_1 prevButton {"hint":"Previous sticky"}'
+    - '// @input AssignableType_2 nextButton {"hint":"Next sticky"}'
+    - '// @input AssignableType_3 singleButton {"hint":"Single view"}'
+    - '// @input AssignableType_4 threeButton {"hint":"Three view"}'
+    - '// @input AssignableType_5 gridButton {"hint":"Collection view"}'
+    - '// @input AssignableType_6 closeButton {"hint":"Closes the board"}'
+    - '// @input Asset.Texture fallbackStickyArt {"hint":"Card art for a sticky that has no art of its own (its label is drawn on top)"}'
+    - "// @input SceneObject boardFrame {\"hint\":\"Paw board frame. When a companion's board is drawn smaller (width cap), the card layout shrinks with it.\"}"
+    - "// @input float designFrameHeightCm = 19.3 {\"hint\":\"Frame height (cm) the card layout was designed for: Phineas's 7.6 in board\"}"
+    - "// @input float collectionShrinkOnSmallBoard = 0.7 {\"hint\":\"Extra shrink for Collection stickies on a capped (smaller) board, so the bow clears the second row. 1 = none. Phineas's full-size board is never affected.\"}"
+    - "// @input float collectionRowLiftIn = 0.62 {\"hint\":\"On a capped (smaller) board, raise the Collection's second row by this many inches so the bow clears it.\"}"
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Card sizes (inches)"}'
+    - '// @input float singleWidthIn = 4.3 {"hint":"Single view card width", "widget":"slider", "min":2, "max":6, "step":0.1}'
+    - '// @input float threeCenterWidthIn = 4 {"hint":"Three view center card width", "widget":"slider", "min":2, "max":6, "step":0.1}'
+    - '// @input float threeSideWidthIn = 3.3 {"hint":"Three view side card width", "widget":"slider", "min":1, "max":5, "step":0.1}'
+    - '// @input float gridWidthIn = 1.9 {"hint":"Collection card width", "widget":"slider", "min":1, "max":3, "step":0.1}'
+    - '// @ui {"widget":"group_end"}'

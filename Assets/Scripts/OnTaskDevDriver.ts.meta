@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/9c64333b-fa9d-408d-a865-65acf5708000>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 03723e3d-502a-4eda-85f9-2ef49db421d0
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 03723e3d-502a-4eda-85f9-2ef49db421d0
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 1655a6da-c14d-4de3-a01b-992df9ee63c9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/1655a6da-c14d-4de3-a01b-992df9ee63c9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 4f24612c-043f-4483-b03b-4cc8ea78d4e8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    commands: false
+    companions: false
+    flow: false
+    playDemoButton: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - commands: ""
+      flow: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      companions: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      playDemoButton: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input string commands {"hint":"Command list, see header"}'
+    - '// @input AssignableType_1 flow {"hint":"Flow under test"}'
+    - '// @input AssignableType_2 companions {"hint":"Companion manager under test"}'
+    - '// @input AssignableType_3 playDemoButton {"hint":"Play demo button, so a test can start the auto-play (name: playDemoButton)"}'

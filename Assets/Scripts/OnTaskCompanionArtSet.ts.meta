@@ -1,0 +1,160 @@
+- !<AssetImportMetadata/8680ac7b-46ea-4ceb-84e0-75017e773f2d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> bb2c2cde-93d8-4850-8ff7-8a347c2f2896
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> bb2c2cde-93d8-4850-8ff7-8a347c2f2896
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 9104f77d-5adc-41b9-93a3-c0175a284570
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/9104f77d-5adc-41b9-93a3-c0175a284570>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: bd7e66d8-88f9-45a7-8994-4d575eec11f7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    P01: false
+    P02: false
+    P03: false
+    P04: false
+    P05: false
+    P06: false
+    P07: false
+    P08: false
+    P09: false
+    P10: false
+    bubbleConfirm: false
+    bubbleNudge: false
+    bubbleSaved: false
+    bubbleSavedRemind: false
+    bubbleThereItIs: false
+    bubbleWantSticky: false
+    companionId: false
+    faceClose: false
+    faceDismiss: false
+    faceGrid: false
+    faceMyStickies: false
+    faceNext: false
+    faceNo: false
+    facePrev: false
+    faceSave: false
+    faceSaveRemind: false
+    faceSingle: false
+    faceThree: false
+    faceYes: false
+    pawBoard: false
+    poseCouch: false
+    poseDishes: false
+    poseFlyerCounter: false
+    poseSpiceShelf: false
+    poseStove: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - companionId: phineas
+      bubbleThereItIs: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      bubbleWantSticky: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      bubbleNudge: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      bubbleConfirm: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      bubbleSaved: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      bubbleSavedRemind: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      P01: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P02: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P03: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P04: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P05: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P06: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P07: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P08: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P09: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P10: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      faceYes: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      faceNo: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      faceSave: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      faceSaveRemind: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      faceDismiss: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      facePrev: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      faceNext: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      faceSingle: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      faceThree: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      faceGrid: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      faceClose: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      faceMyStickies: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      pawBoard: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      poseStove: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      poseSpiceShelf: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      poseFlyerCounter: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      poseDishes: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      poseCouch: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Companion Art Set</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input string companionId = "phineas" {"hint":"Companion id. One of: phineas, hudson, merry, snowy.", "widget":"combobox", "values":[{"label":"phineas", "value":"phineas"}, {"label":"hudson", "value":"hudson"}, {"label":"merry", "value":"merry"}, {"label":"snowy", "value":"snowy"}]}'
+    - '// @ui {"widget":"group_start", "label":"Speech bubbles"}'
+    - "// @input Asset.Texture bubbleThereItIs {\"hint\":\"'There it is!' bubble, spice shelf (5.5 in wide)\"}"
+    - "// @input Asset.Texture bubbleWantSticky {\"hint\":\"'Want me to make a sticky?' bubble (6.8 in wide)\"}"
+    - "// @input Asset.Texture bubbleNudge {\"hint\":\"'How's that omelet coming along?' bubble (7.0 in wide)\"}"
+    - '// @input Asset.Texture bubbleConfirm {"hint":"Old placeholder confirmation bubble (no longer required)"}'
+    - "// @input Asset.Texture bubbleSaved {\"hint\":\"'Saved!' bubble, after Save\"}"
+    - "// @input Asset.Texture bubbleSavedRemind {\"hint\":\"'I'll remind you Saturday morning.' bubble, after Save & Remind\"}"
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"Voice (optional; a missing clip falls back to Phineas's)\"}"
+    - '// @input Asset.AudioTrackAsset P01 {"hint":"Omelet time"}'
+    - '// @input Asset.AudioTrackAsset P02 {"hint":"There it is"}'
+    - '// @input Asset.AudioTrackAsset P03 {"hint":"Want a sticky"}'
+    - '// @input Asset.AudioTrackAsset P04 {"hint":"No problem"}'
+    - '// @input Asset.AudioTrackAsset P05 {"hint":"Check out holiday fair"}'
+    - '// @input Asset.AudioTrackAsset P06 {"hint":"Saved"}'
+    - '// @input Asset.AudioTrackAsset P07 {"hint":"Saved, remind"}'
+    - '// @input Asset.AudioTrackAsset P08 {"hint":"Tossed it"}'
+    - '// @input Asset.AudioTrackAsset P09 {"hint":"Nudge: omelet"}'
+    - '// @input Asset.AudioTrackAsset P10 {"hint":"See your stickies"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Button faces"}'
+    - '// @input Asset.Texture faceYes {"hint":"Yes pill, 1.05 in tall"}'
+    - '// @input Asset.Texture faceNo {"hint":"No pill, 1.05 in tall"}'
+    - '// @input Asset.Texture faceSave {"hint":"Save pill, 1.05 in tall"}'
+    - '// @input Asset.Texture faceSaveRemind {"hint":"Save & Remind pill, 1.05 in tall"}'
+    - '// @input Asset.Texture faceDismiss {"hint":"Dismiss pill, 1.05 in tall"}'
+    - '// @input Asset.Texture facePrev {"hint":"Prev, 0.9 in square"}'
+    - '// @input Asset.Texture faceNext {"hint":"Next, 0.9 in square"}'
+    - '// @input Asset.Texture faceSingle {"hint":"Single view icon, 0.9 in square"}'
+    - '// @input Asset.Texture faceThree {"hint":"Three view icon, 0.9 in square"}'
+    - '// @input Asset.Texture faceGrid {"hint":"Grid view icon, 0.9 in square"}'
+    - '// @input Asset.Texture faceClose {"hint":"Close, 0.9 in tall, about 1.7:1"}'
+    - '// @input Asset.Texture faceMyStickies {"hint":"My Stickies, 1.3 in tall, about 1.78:1"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Board"}'
+    - '// @input Asset.Texture pawBoard {"hint":"Paw board frame, about 11 x 7.6 in"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Poses per spot"}'
+    - '// @input Asset.Texture poseStove {"hint":"Pose at the stove"}'
+    - '// @input Asset.Texture poseSpiceShelf {"hint":"Pose at the spice shelf"}'
+    - '// @input Asset.Texture poseFlyerCounter {"hint":"Pose at the flyer counter"}'
+    - '// @input Asset.Texture poseDishes {"hint":"Pose at the dishes"}'
+    - '// @input Asset.Texture poseCouch {"hint":"Pose at the couch"}'
+    - '// @ui {"widget":"group_end"}'

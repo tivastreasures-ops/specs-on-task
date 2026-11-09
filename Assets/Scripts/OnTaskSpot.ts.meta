@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/c12d16e7-edc0-42b9-964b-f97b703118ed>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c2dcc063-6a4b-4bf4-8904-150922d43e63
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c2dcc063-6a4b-4bf4-8904-150922d43e63
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f23b3e46-9218-4b4f-9f1b-6e7a46fedb1b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f23b3e46-9218-4b4f-9f1b-6e7a46fedb1b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: e67eb444-4bd1-4093-8186-99461172311d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    background: false
+    content: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - background: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      content: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject background {"hint":"Fake-kitchen background quad, 38.1 x 23.0 cm"}'
+    - '// @input SceneObject content {"hint":"Everything that belongs to this spot. Enabled only while the spot is active."}'

@@ -1,0 +1,113 @@
+- !<AssetImportMetadata/037bd8c0-10a4-44f3-b4bb-90b372999f99>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 7165b2c6-523f-4a50-92c1-e64f84abe984
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 7165b2c6-523f-4a50-92c1-e64f84abe984
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a1587a1a-65f1-44d4-bcaf-2110515957b1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a1587a1a-65f1-44d4-bcaf-2110515957b1>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 2faa4dea-2580-4f19-aa8f-f6e97112578e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    P01: false
+    P02: false
+    P03: false
+    P04: false
+    P05: false
+    P06: false
+    P07: false
+    P08: false
+    P09: false
+    P10: false
+    T1: false
+    T2: false
+    T3: false
+    T4: false
+    T5: false
+    T6: false
+    T7: false
+    companionAudio: false
+    playUserVoice: false
+    userAudio: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - playUserVoice: true
+      companionAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      userAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      P01: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P02: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P03: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P04: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P05: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P06: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P07: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P08: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P09: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      P10: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      T1: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      T2: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      T3: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      T4: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      T5: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      T6: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      T7: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">OnTaskVoice</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - "// @input bool playUserVoice = true {\"hint\":\"Play the T clips (user's lines). Preview and video only; a live Lens uses her real voice.\"}"
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Players"}'
+    - '// @input Component.AudioComponent companionAudio {"hint":"Companion voice player"}'
+    - '// @input Component.AudioComponent userAudio {"hint":"User voice player"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Companion clips"}'
+    - '// @input Asset.AudioTrackAsset P01 {"hint":"Omelet time"}'
+    - '// @input Asset.AudioTrackAsset P02 {"hint":"There it is"}'
+    - '// @input Asset.AudioTrackAsset P03 {"hint":"Want a sticky"}'
+    - '// @input Asset.AudioTrackAsset P04 {"hint":"No problem"}'
+    - '// @input Asset.AudioTrackAsset P05 {"hint":"Check out holiday fair"}'
+    - '// @input Asset.AudioTrackAsset P06 {"hint":"Saved"}'
+    - '// @input Asset.AudioTrackAsset P07 {"hint":"Saved, remind"}'
+    - '// @input Asset.AudioTrackAsset P08 {"hint":"Tossed it"}'
+    - '// @input Asset.AudioTrackAsset P09 {"hint":"Nudge: omelet"}'
+    - '// @input Asset.AudioTrackAsset P10 {"hint":"See your stickies"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"User clips"}'
+    - '// @input Asset.AudioTrackAsset T1 {"hint":"Making omelet"}'
+    - '// @input Asset.AudioTrackAsset T2 {"hint":"Need garlic"}'
+    - '// @input Asset.AudioTrackAsset T3 {"hint":"Holiday fair Saturday"}'
+    - '// @input Asset.AudioTrackAsset T4 {"hint":"Yes"}'
+    - '// @input Asset.AudioTrackAsset T5 {"hint":"No"}'
+    - '// @input Asset.AudioTrackAsset T6 {"hint":"Right, the omelet"}'
+    - '// @input Asset.AudioTrackAsset T7 {"hint":"Thanks Phineas"}'
+    - '// @ui {"widget":"group_end"}'
